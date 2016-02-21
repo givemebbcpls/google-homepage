@@ -1,17 +1,17 @@
 <!doctype html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<title>Google</title>
 </head>
 <body>
 	<header>
 		<nav class="nav-top">
 			<ul>
-				<li id="gmail">Gmail</li>
-				<li id="images">Images</li>
-				<li id="apps"></li>
-				<li id="sign-in">Sign in</li>
+				<li id="gmail"><a href="#">Gmail</a></li>
+				<li id="images"><a href="#">Images</a></li>
+				<a href=""><li id="apps"></li></a>
+				<li id="sign-in"><span id="text-sign-in">Sign in</span></li>
 			</ul>
 		</nav>
 	</header>
@@ -22,10 +22,10 @@
 				<form action="#" method="get">
 					<div class="search-input">
 						<input id="search-input" type="search" autofocus />
+						<a href=""><span id="mic"></span></a>
 					</div>
 					<div class="buttons">
-						<button id="btn-search" type="submit">Google Search</button>
-						<button id="btn-lucky" type="submit">I'm Feeling Lucky</button>
+						<button id="btn-search" type="submit">Google Search</button><button id="btn-lucky" type="submit">I'm Feeling Lucky</button>
 					</div>
 				</form>
 			</div>
@@ -34,15 +34,15 @@
 	<footer>
 		<nav class="nav-bot">
 			<ul>
-				<div class="nav-bot-right">
-					<li id="adv">Advertising</li>
-					<li id="business">Business</li>
-					<li id="about">About</li>
-				</div>
 				<div class="nav-bot-left">
-					<li id="pri">Privacy</li>
-					<li id="terms">Terms</li>
-					<li id="settings">Settings</li>
+					<li id="adv"><a href="#">Advertising</a></li>
+					<li id="business"><a href="#">Business</a></li>
+					<li id="about"><a href="#">About</a></li>
+				</div>
+				<div class="nav-bot-right">
+					<li id="pri"><a href="#">Privacy</a></li>
+					<li id="terms"><a href="#">Terms</a></li>
+					<li id="settings"><a href="#">Settings</a></li>
 				</div>
 			</ul>
 		</nav>
